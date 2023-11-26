@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIjannah">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="310" height="220"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f66c1" class="javax.swing.JLabel" binding="wordcountlabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Words:"/>
+        </properties>
+      </component>
+      <component id="89ef9" class="javax.swing.JButton" binding="countButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="80" height="30"/>
+            <preferred-size width="80" height="30"/>
+            <maximum-size width="80" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Count"/>
+        </properties>
+      </component>
+      <component id="adb67" class="javax.swing.JButton" binding="padColourButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="110" height="30"/>
+            <preferred-size width="110" height="30"/>
+            <maximum-size width="110" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="pad colour"/>
+        </properties>
+      </component>
+      <component id="49578" class="javax.swing.JTextField" binding="textfieldwordinsert">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="280" height="70"/>
+            <preferred-size width="280" height="70"/>
+            <maximum-size width="280" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-333610"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
